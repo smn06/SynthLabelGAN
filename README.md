@@ -1,7 +1,8 @@
-SynthLabelGAN
-==============================
+## SynthLabelGAN: GANs for Improved Data Labeling in RL
 
-A short description of the project.
+### Overview
+
+SynthLabelGAN is a powerful tool that leverages Generative Adversarial Networks (GANs) to revolutionize data labeling in Reinforcement Learning (RL) tasks. By generating synthetic data for labeling, this project aims to enhance the efficiency of data collection and annotation processes, ultimately improving the training of RL models.
 
 Project Organization
 ------------
@@ -54,4 +55,60 @@ Project Organization
 
 --------
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+
+### Key Features
+
+- **GAN-powered Synthesis:** Employ state-of-the-art GAN techniques to create realistic synthetic data for RL task labeling.
+  
+- **Efficient Data Annotation:** Accelerate data labeling by using synthetic data, reducing the need for manual annotation and minimizing the associated costs.
+
+- **Enhanced Training Data:** Augment your RL training datasets with diverse synthetic samples, leading to more robust and generalizable models.
+
+### Getting Started
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/SynthLabelGAN.git
+   cd SynthLabelGAN
+   ```
+
+2. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the Demo:**
+   ```bash
+   python demo.py
+   ```
+
+### Configuration
+
+Adjust the GAN parameters, dataset settings, and labeling strategies in the `config.yaml` file to tailor SynthLabelGAN to your specific RL task.
+
+```yaml
+# config.yaml
+gan:
+  architecture: DCGAN
+  latent_dim: 100
+  # Add more GAN configuration options...
+
+dataset:
+  name: CartPole-v1
+  size: 10000
+  # Add more dataset configuration options...
+
+labeling:
+  strategy: random
+  # Add more labeling strategy options...
+```
+
+
+### License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+
+Feel free to customize the title, overview, and other sections based on the specific details and goals of your project.
