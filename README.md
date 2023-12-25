@@ -69,7 +69,7 @@ Project Organization
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/SynthLabelGAN.git
+   git clone https://github.com/smn06/SynthLabelGAN.git
    cd SynthLabelGAN
    ```
 
